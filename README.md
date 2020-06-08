@@ -1,3 +1,7 @@
+# This package is deprecated!
+
+This package has been split into two ne packages gms (https://github.com/pik-piam/gms) containing its GAMS related functions and lucode2 (https://github.com/pik-piam/gms) containing all the rest. Please use these two packages instead as lucode is not further developed anymore.
+
 # Code Manipulation and Analysis Tools
 
 R package **lucode**, version **3.20.6**

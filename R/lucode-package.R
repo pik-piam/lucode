@@ -7,3 +7,7 @@
 #' @aliases lucode-package lucode
 #' @docType package
 NULL
+
+.onLoad <- function(libname, pkgname){
+  .Deprecated("gms|lucode", msg="Package 'lucode' is deprecated.\nUse its successors 'gms' or 'lucode2' instead.", old="lucode")
+}
